@@ -2,7 +2,7 @@
 
 # Configuration
 REPO_URL="https://github.com/luantpbk/cuuhohanam.com.git"
-WEB_DIR="/var/www/html"
+WEB_DIR="/var/www/cuuhohanam.com"
 DOMAIN="cuuhohanam.com" # Thay bằng domain hoặc IP của bạn nếu cần
 
 # Kiểm tra quyền root
