@@ -50,8 +50,8 @@ server {
     server_name $DOMAIN www.$DOMAIN;
 
     # Tạm dùng cert của kidzlab.edu.vn để Cloudflare (chế độ Full) có thể kết nối mà không bị trả về Express app
-    ssl_certificate /etc/nginx/ssl/kidzlab.edu.vn.pem;
-    ssl_certificate_key /etc/nginx/ssl/kidzlab.edu.vn.key;
+    ssl_certificate /etc/letsencrypt/live/cuuhohanam.com/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/cuuhohanam.com/privkey.pem;
 
     root $WEB_DIR;
     index index.html index.htm;
