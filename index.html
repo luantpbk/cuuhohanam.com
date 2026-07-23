@@ -275,6 +275,21 @@
     <a class="zalo-chat-container" href="https://zalo.me/+84836113116" id="zalo-chat" title="Chat qua Zalo">
         <div></div>
     </a>
+    <script>
+        function reportConversion() {
+            gtag('event', 'conversion', {
+                'send_to': 'AW-18317603664/nvrVCI6G1dQcENDmwZ5E',
+                'transaction_id': ''
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', function () {
+            var contactLinks = document.querySelectorAll('a[href^="tel:"], a[href^="https://zalo.me"]');
+            contactLinks.forEach(function(link) {
+                link.addEventListener('click', reportConversion);
+            });
+        });
+    </script>
 </body>
 
 </html>
